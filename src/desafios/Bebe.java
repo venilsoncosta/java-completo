@@ -1,10 +1,7 @@
 package desafios;
 
 public class Bebe {
-    static int idade = 0;
-    String nome;
-
-    Bebe(String novoNome){
-        nome = novoNome;
-    }
+    final static String nome = "Joaleson";
+    int idade;
+    String nacionalidade;
 }

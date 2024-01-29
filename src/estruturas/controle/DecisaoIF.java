@@ -10,5 +10,6 @@ public class DecisaoIF {
         if(palavra.contains("a")){
             System.out.println("A palavra contém a letra A");
         }
+        entrada.close();
     }
 }
