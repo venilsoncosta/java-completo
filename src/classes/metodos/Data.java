@@ -11,7 +11,7 @@ public class Data {
         ano = 1970;
     }
 
-    Data(int dia, int mes, int ano){
+    public Data(int dia, int mes, int ano){
         dia = dia;
         mes = mes;
         ano = ano;
