@@ -15,7 +15,15 @@ public class ForEach {
             System.out.println(nome + "!!!");
         });
 
+        System.out.println("Método por referencia 1");
         System.out.println("Forma mais curta ainda");
         aprovados.forEach(System.out::println);
+
+        System.out.println("Método por referencia 2");
+        aprovados.forEach(ForEach::imprimirNome);
+    }
+
+    public static void imprimirNome(String nome){
+        System.out.println("Oi, meu nome é " + nome);
     }
 }
